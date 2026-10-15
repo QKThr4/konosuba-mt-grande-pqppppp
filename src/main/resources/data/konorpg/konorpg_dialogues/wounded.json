@@ -1,0 +1,49 @@
+{
+ "speaker": "Wounded Adventurer",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": "Ugh... a monster got me... could you help me? A healer's fee is 60 Eris...",
+   "choices": [
+    {
+     "text": "Pay 60 Eris to heal him",
+     "next": "thanks",
+     "effects": [
+      {
+       "type": "money",
+       "amount": -60
+      },
+      {
+       "type": "rep",
+       "faction": "city",
+       "amount": 3
+      },
+      {
+       "type": "xp",
+       "amount": 40
+      },
+      {
+       "type": "give",
+       "item": "konorpg:health_potion",
+       "count": 1
+      }
+     ],
+     "next_fail": "greet"
+    },
+    {
+     "text": "Leave him",
+     "next": ""
+    }
+   ]
+  },
+  "thanks": {
+   "text": "Thank you, kind soul! Take this potion as thanks. I owe you one!",
+   "choices": [
+    {
+     "text": "Take care.",
+     "next": ""
+    }
+   ]
+  }
+ }
+}

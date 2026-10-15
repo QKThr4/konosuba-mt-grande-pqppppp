@@ -1,0 +1,110 @@
+{
+ "speaker": "Villager",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": [
+    "Psst, you there.",
+    "Hey, stranger..."
+   ],
+   "choices": [
+    {
+     "text": "Can I help with something?",
+     "next": "offer"
+    },
+    {
+     "text": "Chat",
+     "next": "chat"
+    },
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  },
+  "offer": {
+   "text": "Psst... could you get me an Axis Order Sake? It's at the tavern. It's for a... ceremony.",
+   "choices": [
+    {
+     "text": "Sure, I'll fetch it!",
+     "next": "",
+     "effects": [
+      {
+       "type": "start_quest",
+       "id": "fav_sake"
+      },
+      {
+       "type": "msg",
+       "text": "Favor accepted! (Hand it in by talking to the person again.)"
+      }
+     ]
+    },
+    {
+     "text": "Not now.",
+     "next": ""
+    }
+   ]
+  },
+  "waiting": {
+   "text": "The sake! I'm getting thirsty... I mean, faithful.",
+   "choices": [
+    {
+     "text": "I'll be right back.",
+     "next": ""
+    }
+   ]
+  },
+  "deliver": {
+   "text": "You brought it! Thank you very much, adventurer.",
+   "choices": [
+    {
+     "text": "Hand it over",
+     "next": "thanks",
+     "effects": [
+      {
+       "type": "claim_quest",
+       "id": "fav_sake"
+      }
+     ]
+    }
+   ]
+  },
+  "thanks": {
+   "text": "Glug glug... I mean, blessed be!",
+   "choices": [
+    {
+     "text": "You're welcome!",
+     "next": ""
+    }
+   ]
+  },
+  "chat": {
+   "text": [
+    "Axel is peaceful... except when a certain goddess shows up.",
+    "The monsters outside keep showing up. Good thing we have the Guild.",
+    "They say the Guild has a new quest on the board all the time.",
+    "I heard about other towns beyond the hills. One day I'll go there!"
+   ],
+   "choices": [
+    {
+     "text": "Back",
+     "next": "greet"
+    }
+   ]
+  }
+ },
+ "starts": [
+  {
+   "require": {
+    "quest_ready": "fav_sake"
+   },
+   "node": "deliver"
+  },
+  {
+   "require": {
+    "quest_active": "fav_sake"
+   },
+   "node": "waiting"
+  }
+ ]
+}

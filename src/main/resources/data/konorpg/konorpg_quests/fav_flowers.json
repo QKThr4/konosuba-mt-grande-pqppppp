@@ -1,0 +1,19 @@
+{
+ "name": "Flowers for the Florist",
+ "description": "Bring 3 poppies (red flowers) to the villager.",
+ "location": "Town of Axel",
+ "type": "collect",
+ "amount": 3,
+ "xp": 25,
+ "money": 60,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "favor",
+ "repeatable": true,
+ "humor": "He swears it's \"for decoration\".",
+ "target": "minecraft:poppy",
+ "cooldownMinutes": 30,
+ "reputation": {
+  "city": 1
+ }
+}

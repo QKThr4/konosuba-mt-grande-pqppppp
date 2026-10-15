@@ -1,0 +1,44 @@
+{
+ "name": "Bork's Weapons",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:adventurer_sword",
+   "price": 250
+  },
+  {
+   "item": "minecraft:arrow",
+   "price": 4
+  },
+  {
+   "item": "konorpg:goblin_hatchet",
+   "price": 400,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:knight_longsword",
+   "price": 1200,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:crusader_blade",
+   "price": 4000,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:hunter_bow",
+   "price": 900,
+   "rotate": true
+  },
+  {
+   "item": "minecraft:iron_sword",
+   "price": 200,
+   "rotate": true
+  },
+  {
+   "item": "minecraft:bow",
+   "price": 150,
+   "rotate": true
+  }
+ ]
+}

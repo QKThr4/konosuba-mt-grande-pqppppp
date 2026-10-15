@@ -1,0 +1,137 @@
+{
+ "speaker": "Luna",
+ "start": "back",
+ "nodes": {
+  "new": {
+   "text": "Welcome to the Adventurers Guild! To register, the registration fee is {fee} Eris. You have {money} Eris.",
+   "choices": [
+    {
+     "text": "I want to register.",
+     "next": "done",
+     "effects": [
+      {
+       "type": "action",
+       "action": "register"
+      }
+     ],
+     "next_fail": "poor"
+    },
+    {
+     "text": "Just looking.",
+     "next": ""
+    }
+   ]
+  },
+  "done": {
+   "text": "There you go! Here is your Adventurer Card. Open the panel (K key) > GUILD to choose your class and head to the quest board!",
+   "choices": [
+    {
+     "text": "Thank you!",
+     "next": ""
+    }
+   ]
+  },
+  "poor": {
+   "text": "Hmm... the fee is {fee} Eris and you only have {money}. Adventurers without money? Common around here. Come back when you have it.",
+   "choices": [
+    {
+     "text": "I see.",
+     "next": ""
+    }
+   ]
+  },
+  "back": {
+   "text": [
+    "Hello, {player}! Rank {rank}, level {level}. How can I help?",
+    "Welcome back! Any monsters in need of a lesson?",
+    "Good to see you in one piece! The Guild thanks you."
+   ],
+   "choices": [
+    {
+     "text": "Hand in completed quests (collect rewards)",
+     "next": "paid",
+     "effects": [
+      {
+       "type": "action",
+       "action": "claim_board"
+      }
+     ],
+     "next_fail": "nothing"
+    },
+    {
+     "text": "Open the Guild panel (class, card)",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "open_guild"
+      }
+     ]
+    },
+    {
+     "text": "How do quests work?",
+     "next": "howto"
+    },
+    {
+     "text": "Adventurer tips",
+     "next": "tips"
+    },
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  },
+  "paid": {
+   "text": [
+    "Excellent work! The Guild thanks you and the reward is already with you.",
+    "Mission accomplished! Your rank will thank you."
+   ],
+   "choices": [
+    {
+     "text": "Thank you!",
+     "next": ""
+    },
+    {
+     "text": "Anything else?",
+     "next": "back"
+    }
+   ]
+  },
+  "nothing": {
+   "text": "Hmm, you have no completed quests right now. Accept quests at the board and come back when you finish!",
+   "choices": [
+    {
+     "text": "I see.",
+     "next": "back"
+    }
+   ]
+  },
+  "howto": {
+   "text": "Quests are on the QUEST BOARD (in the square and in here). You accept them there, complete the objective and come talk to me to get XP, Eris and reputation. The board changes over time and some quests have a cooldown.",
+   "choices": [
+    {
+     "text": "Got it!",
+     "next": "back"
+    }
+   ]
+  },
+  "tips": {
+   "text": "Tips: monsters give XP and Eris. Their items are worth money at the shops. Feed your companions from time to time and let them sleep in a bed. And never, EVER let the goddess drink before a fight.",
+   "choices": [
+    {
+     "text": "Back",
+     "next": "back"
+    }
+   ]
+  }
+ },
+ "starts": [
+  {
+   "require": {
+    "registered": false
+   },
+   "node": "new"
+  }
+ ]
+}

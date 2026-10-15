@@ -1,0 +1,21 @@
+{
+ "name": "Chapter 1: Goblin Plague",
+ "description": "Goblins are stealing the crops. Defeat 6 goblins.",
+ "location": "Around Axel",
+ "type": "kill",
+ "amount": 6,
+ "xp": 160,
+ "money": 400,
+ "difficulty": 2,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "target": "konorpg:goblin",
+ "unlocks": [
+  "main_05_gate"
+ ],
+ "reputation": {
+  "guild": 3,
+  "city": 3
+ }
+}

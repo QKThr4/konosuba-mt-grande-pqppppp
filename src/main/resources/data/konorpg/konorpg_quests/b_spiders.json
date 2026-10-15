@@ -1,0 +1,17 @@
+{
+ "name": "Giant Spider Nest",
+ "description": "Defeat 4 giant spiders.",
+ "location": "Forests and caves",
+ "type": "kill",
+ "amount": 4,
+ "xp": 240,
+ "money": 450,
+ "difficulty": 3,
+ "minRank": "E",
+ "category": "board",
+ "repeatable": true,
+ "target": "konorpg:giant_spider",
+ "reputation": {
+  "guild": 3
+ }
+}

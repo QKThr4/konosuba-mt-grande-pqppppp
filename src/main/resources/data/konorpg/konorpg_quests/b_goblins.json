@@ -1,0 +1,17 @@
+{
+ "name": "Goblin Control",
+ "description": "Defeat 6 goblins.",
+ "location": "Around town",
+ "type": "kill",
+ "amount": 6,
+ "xp": 110,
+ "money": 220,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "board",
+ "repeatable": true,
+ "target": "konorpg:goblin",
+ "reputation": {
+  "guild": 2
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "speaker": "Villager",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": [
+    "Hi! You look hungry.",
+    "Hello! Have you tried the tavern's pie?"
+   ],
+   "choices": [
+    {
+     "text": "Can I help with something?",
+     "next": "offer"
+    },
+    {
+     "text": "Chat",
+     "next": "chat"
+    },
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  },
+  "offer": {
+   "text": "I'm making a pie, but I'm missing 3 apples. Can you fetch some?",
+   "choices": [
+    {
+     "text": "Sure, I'll fetch it!",
+     "next": "",
+     "effects": [
+      {
+       "type": "start_quest",
+       "id": "fav_apples"
+      },
+      {
+       "type": "msg",
+       "text": "Favor accepted! (Hand it in by talking to the person again.)"
+      }
+     ]
+    },
+    {
+     "text": "Not now.",
+     "next": ""
+    }
+   ]
+  },
+  "waiting": {
+   "text": "The apples... the apple trees are outside the walls!",
+   "choices": [
+    {
+     "text": "I'll be right back.",
+     "next": ""
+    }
+   ]
+  },
+  "deliver": {
+   "text": "You brought it! Thank you very much, adventurer.",
+   "choices": [
+    {
+     "text": "Hand it over",
+     "next": "thanks",
+     "effects": [
+      {
+       "type": "claim_quest",
+       "id": "fav_apples"
+      }
+     ]
+    }
+   ]
+  },
+  "thanks": {
+   "text": "What a pie this will be! Want a slice? No? Then take this.",
+   "choices": [
+    {
+     "text": "You're welcome!",
+     "next": ""
+    }
+   ]
+  },
+  "chat": {
+   "text": [
+    "Axel is peaceful... except when a certain goddess shows up.",
+    "The monsters outside keep showing up. Good thing we have the Guild.",
+    "They say the Guild has a new quest on the board all the time.",
+    "I heard about other towns beyond the hills. One day I'll go there!"
+   ],
+   "choices": [
+    {
+     "text": "Back",
+     "next": "greet"
+    }
+   ]
+  }
+ },
+ "starts": [
+  {
+   "require": {
+    "quest_ready": "fav_apples"
+   },
+   "node": "deliver"
+  },
+  {
+   "require": {
+    "quest_active": "fav_apples"
+   },
+   "node": "waiting"
+  }
+ ]
+}

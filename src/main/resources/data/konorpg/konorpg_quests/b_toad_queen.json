@@ -1,0 +1,18 @@
+{
+ "name": "Slay the Toad Queen",
+ "description": "The Giant Toad Queen rules the plains. When she appears, defeat her!",
+ "location": "Plains (boss event)",
+ "type": "boss",
+ "amount": 1,
+ "xp": 800,
+ "money": 2000,
+ "difficulty": 5,
+ "minRank": "D",
+ "category": "board",
+ "repeatable": true,
+ "target": "konorpg:toad_queen",
+ "cooldownMinutes": 60,
+ "reputation": {
+  "guild": 10
+ }
+}

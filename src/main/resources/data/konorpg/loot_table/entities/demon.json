@@ -1,0 +1,60 @@
+{
+ "type": "minecraft:entity",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "konorpg:demon_horn",
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.6
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "konorpg:magic_crystal",
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "konorpg:greater_health_potion",
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.1
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

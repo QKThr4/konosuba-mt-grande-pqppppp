@@ -1,0 +1,254 @@
+{
+ "name": "Grom's Forge",
+ "sell": true,
+ "buy": [
+  {
+   "item": "minecraft:iron_ingot",
+   "price": 40
+  },
+  {
+   "item": "minecraft:coal",
+   "price": 6
+  },
+  {
+   "item": "minecraft:iron_sword",
+   "price": 220
+  },
+  {
+   "item": "minecraft:iron_pickaxe",
+   "price": 220
+  },
+  {
+   "item": "minecraft:iron_axe",
+   "price": 220
+  },
+  {
+   "item": "minecraft:leather",
+   "price": 12
+  }
+ ],
+ "recipes": [
+  {
+   "result": "konorpg:goblin_hatchet",
+   "count": 1,
+   "cost": 100,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 3
+    },
+    {
+     "item": "konorpg:goblin_ear",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "result": "konorpg:knight_longsword",
+   "count": 1,
+   "cost": 300,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 6
+    },
+    {
+     "item": "konorpg:orc_tusk",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "result": "konorpg:crusader_blade",
+   "count": 1,
+   "cost": 1500,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 10
+    },
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 2
+    },
+    {
+     "item": "konorpg:orc_tusk",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "result": "konorpg:hunter_bow",
+   "count": 1,
+   "cost": 100,
+   "ingredients": [
+    {
+     "item": "minecraft:string",
+     "count": 4
+    },
+    {
+     "item": "minecraft:stick",
+     "count": 6
+    },
+    {
+     "item": "konorpg:kobold_fang",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "result": "konorpg:adventurer_helmet",
+   "count": 1,
+   "cost": 40,
+   "ingredients": [
+    {
+     "item": "minecraft:leather",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "result": "konorpg:adventurer_chestplate",
+   "count": 1,
+   "cost": 70,
+   "ingredients": [
+    {
+     "item": "minecraft:leather",
+     "count": 8
+    }
+   ]
+  },
+  {
+   "result": "konorpg:adventurer_leggings",
+   "count": 1,
+   "cost": 55,
+   "ingredients": [
+    {
+     "item": "minecraft:leather",
+     "count": 7
+    }
+   ]
+  },
+  {
+   "result": "konorpg:adventurer_boots",
+   "count": 1,
+   "cost": 35,
+   "ingredients": [
+    {
+     "item": "minecraft:leather",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "result": "konorpg:knight_helmet",
+   "count": 1,
+   "cost": 200,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "result": "konorpg:knight_chestplate",
+   "count": 1,
+   "cost": 350,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 8
+    },
+    {
+     "item": "konorpg:orc_tusk",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "result": "konorpg:knight_leggings",
+   "count": 1,
+   "cost": 280,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 7
+    }
+   ]
+  },
+  {
+   "result": "konorpg:knight_boots",
+   "count": 1,
+   "cost": 180,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "result": "konorpg:crusader_helmet",
+   "count": 1,
+   "cost": 800,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 6
+    },
+    {
+     "item": "konorpg:golem_core",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "result": "konorpg:crusader_chestplate",
+   "count": 1,
+   "cost": 1500,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 10
+    },
+    {
+     "item": "konorpg:golem_core",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "result": "konorpg:crusader_leggings",
+   "count": 1,
+   "cost": 1100,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 8
+    },
+    {
+     "item": "konorpg:golem_core",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "result": "konorpg:crusader_boots",
+   "count": 1,
+   "cost": 700,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 5
+    },
+    {
+     "item": "konorpg:golem_core",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "repair": true,
+ "reinforce": true
+}

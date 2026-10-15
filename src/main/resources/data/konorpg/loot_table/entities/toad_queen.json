@@ -1,0 +1,95 @@
+{
+ "type": "minecraft:entity",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "konorpg:toad_queen_ring",
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "konorpg:magic_crystal",
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 1.0
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "konorpg:greater_health_potion",
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 1.0
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "konorpg:toad_leg",
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 1.0
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 8
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

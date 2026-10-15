@@ -1,0 +1,21 @@
+{
+ "name": "Chapter 1: Welcome to the Guild",
+ "description": "You woke up in a fantasy world. Go to the Adventurers Guild (the building north of the square), talk to the receptionist Luna and register.",
+ "location": "Axel Guild",
+ "type": "event",
+ "amount": 1,
+ "xp": 50,
+ "money": 100,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "humor": "Tip: there is a registration fee. Yes, even in the other world there is bureaucracy.",
+ "target": "register_guild",
+ "unlocks": [
+  "main_02_class"
+ ],
+ "reputation": {
+  "guild": 2
+ }
+}

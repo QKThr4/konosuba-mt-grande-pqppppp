@@ -1,0 +1,45 @@
+{
+ "speaker": "Tavern Keeper",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": [
+    "What will it be? Fried toad legs are today's special! And I buy meat of all kinds.",
+    "Good evening! Here we drink, eat, gossip... and I pay well for fresh meat."
+   ],
+   "choices": [
+    {
+     "text": "View the menu / sell meat",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "open_shop"
+      }
+     ]
+    },
+    {
+     "text": "Hear rumors",
+     "next": "rumor"
+    },
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  },
+  "rumor": {
+   "text": [
+    "They say giant toads have been seen... and something bigger on the plains. A Queen, they say.",
+    "A blue-haired goddess was here the other day and left me the bill. But that's drunk talk.",
+    "They say a demon general is gathering armies. I hope he's bad at logistics."
+   ],
+   "choices": [
+    {
+     "text": "Back",
+     "next": "greet"
+    }
+   ]
+  }
+ }
+}

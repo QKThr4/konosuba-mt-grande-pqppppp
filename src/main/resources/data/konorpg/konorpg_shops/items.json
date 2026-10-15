@@ -1,0 +1,52 @@
+{
+ "name": "Tomás's Items",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:health_potion",
+   "price": 80
+  },
+  {
+   "item": "konorpg:return_scroll",
+   "price": 150
+  },
+  {
+   "item": "minecraft:bread",
+   "price": 10
+  },
+  {
+   "item": "minecraft:torch",
+   "price": 3
+  },
+  {
+   "item": "konorpg:greater_health_potion",
+   "price": 250,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:iron_ring",
+   "price": 700,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:swift_ring",
+   "price": 1500,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:guardian_ring",
+   "price": 1500,
+   "rotate": true
+  },
+  {
+   "item": "minecraft:apple",
+   "price": 8,
+   "rotate": true
+  },
+  {
+   "item": "minecraft:cooked_chicken",
+   "price": 18,
+   "rotate": true
+  }
+ ]
+}

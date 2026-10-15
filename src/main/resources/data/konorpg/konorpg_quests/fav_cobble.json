@@ -1,0 +1,18 @@
+{
+ "name": "Stones for the Wall",
+ "description": "Bring 16 cobblestone.",
+ "location": "Town of Axel",
+ "type": "collect",
+ "amount": 16,
+ "xp": 25,
+ "money": 90,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "favor",
+ "repeatable": true,
+ "target": "minecraft:cobblestone",
+ "cooldownMinutes": 30,
+ "reputation": {
+  "city": 1
+ }
+}

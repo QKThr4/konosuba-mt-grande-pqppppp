@@ -1,0 +1,20 @@
+{
+ "name": "Chapter 1: Choose Your Class",
+ "description": "Open the panel (K key) > GUILD and choose your class. Then learn a skill in the SKILLS tab.",
+ "location": "Axel Guild",
+ "type": "event",
+ "amount": 1,
+ "xp": 60,
+ "money": 150,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "target": "choose_class",
+ "unlocks": [
+  "main_03_toads"
+ ],
+ "reputation": {
+  "guild": 2
+ }
+}

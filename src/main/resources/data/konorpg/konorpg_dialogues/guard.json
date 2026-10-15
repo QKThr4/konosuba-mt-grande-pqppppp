@@ -1,0 +1,49 @@
+{
+ "speaker": "Guard",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": [
+    "Keep order in the town, adventurer.",
+    "Axel is safe. Almost always. Don't hit the townsfolk.",
+    "The monsters outside are getting bolder. Take care.",
+    "If you hear a goddess screaming, the problem is probably a toad."
+   ],
+   "choices": [
+    {
+     "text": "Rumors?",
+     "next": "rumor"
+    },
+    {
+     "text": "Where is the Guild?",
+     "next": "guild"
+    },
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  },
+  "rumor": {
+   "text": [
+    "Lately the undead have been showing up at night. A priest would help... or a goddess. If she's sober.",
+    "People talk about monsters ambushing travelers outside the walls. Stay alert."
+   ],
+   "choices": [
+    {
+     "text": "I see.",
+     "next": ""
+    }
+   ]
+  },
+  "guild": {
+   "text": "The Guild is the big building north of the square. The quest board is in the square and inside it.",
+   "choices": [
+    {
+     "text": "Thank you!",
+     "next": ""
+    }
+   ]
+  }
+ }
+}

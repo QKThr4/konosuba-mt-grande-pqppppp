@@ -1,0 +1,25 @@
+{
+ "speaker": "Alchemist",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": "Potions! Side effects not included. I brew them from monster parts, too.",
+   "choices": [
+    {
+     "text": "Open the lab (buy, brew potions)",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "open_shop"
+      }
+     ]
+    },
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  }
+ }
+}

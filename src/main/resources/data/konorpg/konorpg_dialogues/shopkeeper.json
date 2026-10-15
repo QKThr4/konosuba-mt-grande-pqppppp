@@ -1,0 +1,47 @@
+{
+ "speaker": "Shopkeeper",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": [
+    "Welcome! Take a look at my wares.",
+    "Hello, adventurer! Eris in hand, items in the inventory.",
+    "The stock changed today! Have a look."
+   ],
+   "choices": [
+    {
+     "text": "View the shop",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "open_shop"
+      }
+     ]
+    },
+    {
+     "text": "Any news?",
+     "next": "news"
+    },
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  },
+  "news": {
+   "text": [
+    "They say giant toads have been swallowing adventurers on the plains. Especially the ones who keep screaming.",
+    "Watch out for goblins at night. And for drunk goddesses, any time.",
+    "Reputation with the merchants gives discounts, you know? Selling monster items earns our trust.",
+    "My stock changes every day. Early birds get the best items."
+   ],
+   "choices": [
+    {
+     "text": "Back",
+     "next": "greet"
+    }
+   ]
+  }
+ }
+}

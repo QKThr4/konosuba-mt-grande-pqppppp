@@ -1,0 +1,22 @@
+{
+ "name": "Chapter 1: Giant Toads",
+ "description": "Giant toads are swallowing adventurers on the plains. Defeat 3 of them outside town.",
+ "location": "Plains outside Axel",
+ "type": "kill",
+ "amount": 3,
+ "xp": 120,
+ "money": 300,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "humor": "Warning: toads like to swallow things. Especially goddesses.",
+ "target": "konorpg:giant_toad",
+ "unlocks": [
+  "main_04_goblins"
+ ],
+ "reputation": {
+  "guild": 3,
+  "city": 2
+ }
+}

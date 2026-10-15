@@ -1,0 +1,130 @@
+{
+ "speaker": "Innkeeper",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": [
+    "Welcome to the inn! Resting costs 50 Eris. I also rent private rooms for sleeping, with 1 to 6 beds.",
+    "Tired from the trip? We have soft beds."
+   ],
+   "choices": [
+    {
+     "text": "Rest (50 Eris): heals and saves your return point",
+     "next": "rested",
+     "effects": [
+      {
+       "type": "action",
+       "action": "rest"
+      }
+     ],
+     "next_fail": "greet"
+    },
+    {
+     "text": "Rent a private room...",
+     "next": "rooms"
+    },
+    {
+     "text": "Just save my return point (free)",
+     "next": "saved",
+     "effects": [
+      {
+       "type": "action",
+       "action": "set_respawn"
+      }
+     ]
+    },
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  },
+  "rooms": {
+   "text": "How many beds? Your companions sleep in the extra ones. More beds, higher price.",
+   "choices": [
+    {
+     "text": "1 bed (100 Eris)",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "rent_room:1"
+      }
+     ]
+    },
+    {
+     "text": "2 beds (160 Eris)",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "rent_room:2"
+      }
+     ]
+    },
+    {
+     "text": "3 beds (220 Eris)",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "rent_room:3"
+      }
+     ]
+    },
+    {
+     "text": "4 beds (280 Eris)",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "rent_room:4"
+      }
+     ]
+    },
+    {
+     "text": "5 beds (340 Eris)",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "rent_room:5"
+      }
+     ]
+    },
+    {
+     "text": "6 beds (400 Eris)",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "rent_room:6"
+      }
+     ]
+    },
+    {
+     "text": "Back",
+     "next": "greet"
+    }
+   ]
+  },
+  "rested": {
+   "text": "Slept well? Your wounds and mana were restored.",
+   "choices": [
+    {
+     "text": "Thank you!",
+     "next": ""
+    }
+   ]
+  },
+  "saved": {
+   "text": "Done. If you fall in battle and nobody revives you, you wake up here.",
+   "choices": [
+    {
+     "text": "Thanks.",
+     "next": ""
+    }
+   ]
+  }
+ }
+}

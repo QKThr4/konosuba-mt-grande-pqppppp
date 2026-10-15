@@ -1,0 +1,18 @@
+{
+ "speaker": "Villager",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": [
+    "Good day! Are you new here? Beware of toads.",
+    "I wanted to be an adventurer, but I'm afraid of toads. Very afraid."
+   ],
+   "choices": [
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  }
+ }
+}

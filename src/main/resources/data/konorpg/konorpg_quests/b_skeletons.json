@@ -1,0 +1,17 @@
+{
+ "name": "Skeleton Cleanup",
+ "description": "Defeat 6 skeleton warriors.",
+ "location": "Fields at night",
+ "type": "kill",
+ "amount": 6,
+ "xp": 220,
+ "money": 420,
+ "difficulty": 3,
+ "minRank": "E",
+ "category": "board",
+ "repeatable": true,
+ "target": "konorpg:skeleton_warrior",
+ "reputation": {
+  "guild": 3
+ }
+}

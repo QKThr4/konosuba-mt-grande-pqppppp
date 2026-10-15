@@ -1,0 +1,171 @@
+{
+ "name": "Wiz's Magic",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:mana_potion",
+   "price": 90
+  },
+  {
+   "item": "konorpg:apprentice_staff",
+   "price": 500
+  },
+  {
+   "item": "konorpg:mage_helmet",
+   "price": 300
+  },
+  {
+   "item": "konorpg:mage_chestplate",
+   "price": 520
+  },
+  {
+   "item": "konorpg:mage_leggings",
+   "price": 420
+  },
+  {
+   "item": "konorpg:mage_boots",
+   "price": 260
+  },
+  {
+   "item": "konorpg:greater_mana_potion",
+   "price": 280,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:archmage_staff",
+   "price": 6000,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:mana_ring",
+   "price": 1500,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:flame_necklace",
+   "price": 2500,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:lucky_ring",
+   "price": 2200,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:magic_crystal",
+   "price": 260,
+   "rotate": true
+  }
+ ],
+ "recipes": [
+  {
+   "result": "konorpg:apprentice_staff",
+   "count": 1,
+   "cost": 100,
+   "ingredients": [
+    {
+     "item": "minecraft:stick",
+     "count": 3
+    },
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "result": "konorpg:archmage_staff",
+   "count": 1,
+   "cost": 1500,
+   "ingredients": [
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 4
+    },
+    {
+     "item": "konorpg:demon_horn",
+     "count": 2
+    },
+    {
+     "item": "minecraft:stick",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "result": "konorpg:mana_ring",
+   "count": 1,
+   "cost": 300,
+   "ingredients": [
+    {
+     "item": "minecraft:iron_ingot",
+     "count": 2
+    },
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "result": "konorpg:mage_helmet",
+   "count": 1,
+   "cost": 100,
+   "ingredients": [
+    {
+     "item": "minecraft:string",
+     "count": 6
+    },
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "result": "konorpg:mage_chestplate",
+   "count": 1,
+   "cost": 200,
+   "ingredients": [
+    {
+     "item": "minecraft:string",
+     "count": 10
+    },
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "result": "konorpg:mage_leggings",
+   "count": 1,
+   "cost": 150,
+   "ingredients": [
+    {
+     "item": "minecraft:string",
+     "count": 8
+    },
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "result": "konorpg:mage_boots",
+   "count": 1,
+   "cost": 100,
+   "ingredients": [
+    {
+     "item": "minecraft:string",
+     "count": 5
+    },
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

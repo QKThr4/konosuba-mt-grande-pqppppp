@@ -1,0 +1,51 @@
+{
+ "name": "Joe's Tavern",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:fried_toad_leg",
+   "price": 30
+  },
+  {
+   "item": "konorpg:sake_bottle",
+   "price": 120
+  },
+  {
+   "item": "minecraft:bread",
+   "price": 8
+  },
+  {
+   "item": "minecraft:cooked_beef",
+   "price": 20,
+   "rotate": true
+  },
+  {
+   "item": "minecraft:cooked_porkchop",
+   "price": 18,
+   "rotate": true
+  },
+  {
+   "item": "minecraft:apple",
+   "price": 7,
+   "rotate": true
+  }
+ ],
+ "sellFilter": [
+  "minecraft:beef",
+  "minecraft:cooked_beef",
+  "minecraft:porkchop",
+  "minecraft:cooked_porkchop",
+  "minecraft:mutton",
+  "minecraft:cooked_mutton",
+  "minecraft:chicken",
+  "minecraft:cooked_chicken",
+  "minecraft:rabbit",
+  "minecraft:cooked_rabbit",
+  "minecraft:cod",
+  "minecraft:cooked_cod",
+  "minecraft:salmon",
+  "minecraft:cooked_salmon",
+  "konorpg:toad_leg",
+  "konorpg:fried_toad_leg"
+ ]
+}

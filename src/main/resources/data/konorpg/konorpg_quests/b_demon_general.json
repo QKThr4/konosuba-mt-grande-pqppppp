@@ -1,0 +1,18 @@
+{
+ "name": "Slay the Demon General",
+ "description": "The Demon General is gathering armies. When he appears, stop him!",
+ "location": "Wilderness (boss event)",
+ "type": "boss",
+ "amount": 1,
+ "xp": 1500,
+ "money": 4000,
+ "difficulty": 6,
+ "minRank": "B",
+ "category": "board",
+ "repeatable": true,
+ "target": "konorpg:demon_general",
+ "cooldownMinutes": 60,
+ "reputation": {
+  "guild": 15
+ }
+}

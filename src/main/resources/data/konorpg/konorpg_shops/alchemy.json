@@ -1,0 +1,109 @@
+{
+ "name": "Lyra's Alchemy",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:health_potion",
+   "price": 75
+  },
+  {
+   "item": "konorpg:mana_potion",
+   "price": 85
+  },
+  {
+   "item": "konorpg:greater_health_potion",
+   "price": 235
+  },
+  {
+   "item": "konorpg:greater_mana_potion",
+   "price": 265
+  },
+  {
+   "item": "konorpg:magic_crystal",
+   "price": 200,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:spider_gland",
+   "price": 60,
+   "rotate": true
+  }
+ ],
+ "recipes": [
+  {
+   "result": "konorpg:health_potion",
+   "count": 2,
+   "cost": 20,
+   "ingredients": [
+    {
+     "item": "konorpg:toad_leg",
+     "count": 2
+    },
+    {
+     "item": "konorpg:bone_dust",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "result": "konorpg:mana_potion",
+   "count": 2,
+   "cost": 30,
+   "ingredients": [
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 1
+    },
+    {
+     "item": "konorpg:goblin_ear",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "result": "konorpg:greater_health_potion",
+   "count": 1,
+   "cost": 60,
+   "ingredients": [
+    {
+     "item": "konorpg:health_potion",
+     "count": 2
+    },
+    {
+     "item": "konorpg:spider_gland",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "result": "konorpg:greater_mana_potion",
+   "count": 1,
+   "cost": 90,
+   "ingredients": [
+    {
+     "item": "konorpg:mana_potion",
+     "count": 2
+    },
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "result": "konorpg:return_scroll",
+   "count": 1,
+   "cost": 50,
+   "ingredients": [
+    {
+     "item": "minecraft:paper",
+     "count": 1
+    },
+    {
+     "item": "konorpg:magic_crystal",
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

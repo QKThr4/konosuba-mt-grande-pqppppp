@@ -1,0 +1,21 @@
+{
+ "name": "Aqua and the Missing Sake",
+ "description": "Aqua swears she did not drink the sake. Bring 2 bottles from the shop to prove her innocence.",
+ "location": "Axel Tavern",
+ "type": "collect",
+ "amount": 2,
+ "xp": 100,
+ "money": 100,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "special",
+ "repeatable": false,
+ "humor": "Reward: the (dubious) gratitude of the goddess.",
+ "target": "konorpg:sake_bottle",
+ "require": {
+  "companion": "aqua"
+ },
+ "reputation": {
+  "axis": 5
+ }
+}

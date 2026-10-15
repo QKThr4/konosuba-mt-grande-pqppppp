@@ -1,0 +1,17 @@
+{
+ "name": "Lizardmen",
+ "description": "Defeat 5 lizardmen.",
+ "location": "Swamps and rivers",
+ "type": "kill",
+ "amount": 5,
+ "xp": 200,
+ "money": 380,
+ "difficulty": 2,
+ "minRank": "E",
+ "category": "board",
+ "repeatable": true,
+ "target": "konorpg:lizardman",
+ "reputation": {
+  "guild": 3
+ }
+}

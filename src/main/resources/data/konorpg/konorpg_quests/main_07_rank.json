@@ -1,0 +1,19 @@
+{
+ "name": "Chapter 1: A Real Adventurer",
+ "description": "Do quests from the board until you reach Rank D at the Guild. (Chapter 2: dungeons - COMING SOON)",
+ "location": "Axel Guild",
+ "type": "event",
+ "amount": 1,
+ "xp": 400,
+ "money": 1500,
+ "difficulty": 3,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "target": "rank:D",
+ "minLevel": 5,
+ "reputation": {
+  "guild": 10,
+  "city": 5
+ }
+}

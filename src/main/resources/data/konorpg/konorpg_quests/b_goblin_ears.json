@@ -1,0 +1,19 @@
+{
+ "name": "Goblin Ears",
+ "description": "The Guild pays for goblin ears. Hand in 8.",
+ "location": "Anywhere",
+ "type": "collect",
+ "amount": 8,
+ "xp": 80,
+ "money": 200,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "board",
+ "repeatable": true,
+ "humor": "Yes, it's gross. Yes, it pays well.",
+ "target": "konorpg:goblin_ear",
+ "reputation": {
+  "guild": 1,
+  "merchants": 1
+ }
+}

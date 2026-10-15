@@ -1,0 +1,72 @@
+{
+ "type": "neoforge:add_spawns",
+ "biomes": "#minecraft:is_overworld",
+ "spawners": [
+  {
+   "type": "konorpg:goblin",
+   "weight": 5,
+   "minCount": 2,
+   "maxCount": 3
+  },
+  {
+   "type": "konorpg:kobold",
+   "weight": 4,
+   "minCount": 2,
+   "maxCount": 3
+  },
+  {
+   "type": "konorpg:giant_toad",
+   "weight": 6,
+   "minCount": 1,
+   "maxCount": 2
+  },
+  {
+   "type": "konorpg:orc",
+   "weight": 1,
+   "minCount": 1,
+   "maxCount": 2
+  },
+  {
+   "type": "konorpg:lizardman",
+   "weight": 2,
+   "minCount": 1,
+   "maxCount": 2
+  },
+  {
+   "type": "konorpg:skeleton_warrior",
+   "weight": 2,
+   "minCount": 1,
+   "maxCount": 2
+  },
+  {
+   "type": "konorpg:giant_spider",
+   "weight": 3,
+   "minCount": 1,
+   "maxCount": 1
+  },
+  {
+   "type": "konorpg:dire_wolf",
+   "weight": 2,
+   "minCount": 2,
+   "maxCount": 3
+  },
+  {
+   "type": "konorpg:flying_cabbage",
+   "weight": 6,
+   "minCount": 2,
+   "maxCount": 4
+  },
+  {
+   "type": "konorpg:golem",
+   "weight": 1,
+   "minCount": 1,
+   "maxCount": 1
+  },
+  {
+   "type": "konorpg:demon",
+   "weight": 1,
+   "minCount": 1,
+   "maxCount": 1
+  }
+ ]
+}

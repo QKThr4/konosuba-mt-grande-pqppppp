@@ -1,0 +1,25 @@
+{
+ "speaker": "Blacksmith",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": "Good work needs good steel. I forge gear, repair it and reinforce it. What do you need?",
+   "choices": [
+    {
+     "text": "Open the forge (buy, craft, repair, reinforce)",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "open_shop"
+      }
+     ]
+    },
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  }
+ }
+}

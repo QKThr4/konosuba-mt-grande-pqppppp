@@ -1,0 +1,19 @@
+{
+ "name": "Orc Menace",
+ "description": "Defeat 4 orcs.",
+ "location": "Forests",
+ "type": "kill",
+ "amount": 4,
+ "xp": 300,
+ "money": 600,
+ "difficulty": 4,
+ "minRank": "D",
+ "category": "board",
+ "repeatable": true,
+ "humor": "Orcs stink. The reward makes up for it. More or less.",
+ "target": "konorpg:orc",
+ "reputation": {
+  "guild": 4,
+  "city": 2
+ }
+}

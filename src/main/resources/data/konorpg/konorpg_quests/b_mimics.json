@@ -1,0 +1,18 @@
+{
+ "name": "Chest Inspection",
+ "description": "Some chests bite. Defeat 2 mimics.",
+ "location": "Treasure sites",
+ "type": "kill",
+ "amount": 2,
+ "xp": 300,
+ "money": 700,
+ "difficulty": 3,
+ "minRank": "D",
+ "category": "board",
+ "repeatable": true,
+ "humor": "Never trust a chest that is just lying around.",
+ "target": "konorpg:mimic",
+ "reputation": {
+  "guild": 3
+ }
+}

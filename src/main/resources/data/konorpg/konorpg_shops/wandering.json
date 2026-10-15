@@ -1,0 +1,56 @@
+{
+ "name": "Wandering Merchant",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:health_potion",
+   "price": 90,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:mana_potion",
+   "price": 100,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:return_scroll",
+   "price": 170,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:greater_health_potion",
+   "price": 290,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:lucky_ring",
+   "price": 2500,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:swift_ring",
+   "price": 1700,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:mage_chestplate",
+   "price": 600,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:knight_helmet",
+   "price": 450,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:golem_core",
+   "price": 300,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:sake_bottle",
+   "price": 140,
+   "rotate": true
+  }
+ ]
+}

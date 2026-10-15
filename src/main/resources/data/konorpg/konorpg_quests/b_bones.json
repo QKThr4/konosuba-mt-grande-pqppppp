@@ -1,0 +1,17 @@
+{
+ "name": "Bone Dust",
+ "description": "Hand in 6 bone dust for the alchemist.",
+ "location": "Anywhere",
+ "type": "collect",
+ "amount": 6,
+ "xp": 100,
+ "money": 260,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "board",
+ "repeatable": true,
+ "target": "konorpg:bone_dust",
+ "reputation": {
+  "merchants": 2
+ }
+}

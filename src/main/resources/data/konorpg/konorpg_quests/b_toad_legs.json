@@ -1,0 +1,18 @@
+{
+ "name": "Toad Menu",
+ "description": "The tavern wants giant toad legs. Hand in 5.",
+ "location": "Anywhere",
+ "type": "collect",
+ "amount": 5,
+ "xp": 70,
+ "money": 150,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "board",
+ "repeatable": true,
+ "humor": "They say it tastes like chicken. Nobody confirmed.",
+ "target": "konorpg:toad_leg",
+ "reputation": {
+  "merchants": 2
+ }
+}

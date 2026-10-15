@@ -1,0 +1,20 @@
+{
+ "name": "Chapter 1: The Gates",
+ "description": "Visit Axel's south gate, the way out of town, and talk to the guards about the rumors.",
+ "location": "Axel south gate",
+ "type": "explore",
+ "amount": 1,
+ "xp": 80,
+ "money": 200,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "target": "gate",
+ "unlocks": [
+  "main_06_skeletons"
+ ],
+ "reputation": {
+  "city": 3
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "name": "Annoying Kobolds",
+ "description": "Defeat 6 kobolds.",
+ "location": "Around town",
+ "type": "kill",
+ "amount": 6,
+ "xp": 120,
+ "money": 240,
+ "difficulty": 2,
+ "minRank": "E",
+ "category": "board",
+ "repeatable": true,
+ "target": "konorpg:kobold",
+ "reputation": {
+  "guild": 2
+ }
+}

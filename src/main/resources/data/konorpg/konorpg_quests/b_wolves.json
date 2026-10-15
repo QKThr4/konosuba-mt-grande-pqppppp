@@ -1,0 +1,17 @@
+{
+ "name": "Dire Wolf Pack",
+ "description": "Defeat 4 dire wolves.",
+ "location": "Forests",
+ "type": "kill",
+ "amount": 4,
+ "xp": 260,
+ "money": 480,
+ "difficulty": 3,
+ "minRank": "E",
+ "category": "board",
+ "repeatable": true,
+ "target": "konorpg:dire_wolf",
+ "reputation": {
+  "guild": 3
+ }
+}

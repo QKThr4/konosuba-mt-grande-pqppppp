@@ -1,0 +1,19 @@
+{
+ "name": "Cabbage Harvest",
+ "description": "Flying cabbages are worth good money. Catch 8!",
+ "location": "Plains",
+ "type": "kill",
+ "amount": 8,
+ "xp": 100,
+ "money": 400,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "board",
+ "repeatable": true,
+ "humor": "They fly. They flee. They are surprisingly fast. Good luck.",
+ "target": "konorpg:flying_cabbage",
+ "reputation": {
+  "guild": 1,
+  "merchants": 1
+ }
+}

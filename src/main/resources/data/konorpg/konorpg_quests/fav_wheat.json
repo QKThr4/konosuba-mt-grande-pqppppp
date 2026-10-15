@@ -1,0 +1,18 @@
+{
+ "name": "Wheat for the Baker",
+ "description": "Bring 6 wheat.",
+ "location": "Town of Axel",
+ "type": "collect",
+ "amount": 6,
+ "xp": 25,
+ "money": 70,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "favor",
+ "repeatable": true,
+ "target": "minecraft:wheat",
+ "cooldownMinutes": 30,
+ "reputation": {
+  "city": 1
+ }
+}

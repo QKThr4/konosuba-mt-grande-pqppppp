@@ -1,0 +1,17 @@
+{
+ "name": "Stone Guardians",
+ "description": "Defeat 2 golems.",
+ "location": "Mountains",
+ "type": "kill",
+ "amount": 2,
+ "xp": 400,
+ "money": 800,
+ "difficulty": 4,
+ "minRank": "C",
+ "category": "board",
+ "repeatable": true,
+ "target": "konorpg:golem",
+ "reputation": {
+  "guild": 4
+ }
+}

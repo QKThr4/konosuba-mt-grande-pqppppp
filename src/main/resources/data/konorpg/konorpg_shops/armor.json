@@ -1,0 +1,66 @@
+{
+ "name": "Greta's Armor",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:adventurer_helmet",
+   "price": 80
+  },
+  {
+   "item": "konorpg:adventurer_chestplate",
+   "price": 140
+  },
+  {
+   "item": "konorpg:adventurer_leggings",
+   "price": 110
+  },
+  {
+   "item": "konorpg:adventurer_boots",
+   "price": 70
+  },
+  {
+   "item": "minecraft:shield",
+   "price": 220
+  },
+  {
+   "item": "konorpg:knight_helmet",
+   "price": 400,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:knight_chestplate",
+   "price": 700,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:knight_leggings",
+   "price": 550,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:knight_boots",
+   "price": 350,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:crusader_helmet",
+   "price": 1400,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:crusader_chestplate",
+   "price": 2400,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:crusader_leggings",
+   "price": 1900,
+   "rotate": true
+  },
+  {
+   "item": "konorpg:crusader_boots",
+   "price": 1200,
+   "rotate": true
+  }
+ ]
+}

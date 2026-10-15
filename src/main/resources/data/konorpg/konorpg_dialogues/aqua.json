@@ -1,0 +1,178 @@
+{
+ "speaker": "Aqua",
+ "start": "talk",
+ "nodes": {
+  "talk": {
+   "text": [
+    "Yes? Speak to the goddess. Quickly, I'm busy. (I'm not.)",
+    "Hi! Came to buy me a drink? No? Dang.",
+    "Speak, humble adventurer."
+   ],
+   "choices": [
+    {
+     "text": "Aqua, heal me!",
+     "next": "healed",
+     "effects": [
+      {
+       "type": "action",
+       "action": "companion_heal"
+      },
+      {
+       "type": "friendship",
+       "id": "aqua",
+       "amount": 1
+      }
+     ],
+     "next_fail": "talk"
+    },
+    {
+     "text": "Here, food! (feed her the item in your hand)",
+     "next": "fed",
+     "effects": [
+      {
+       "type": "action",
+       "action": "companion_feed"
+      }
+     ],
+     "next_fail": "talk"
+    },
+    {
+     "text": "How are you?",
+     "next": "how"
+    },
+    {
+     "text": "How did you sleep?",
+     "next": "sleep"
+    },
+    {
+     "text": "Tell me about the Axis Order.",
+     "next": "axis",
+     "require": {
+      "friendship": {
+       "id": "aqua",
+       "min": 2
+      }
+     }
+    },
+    {
+     "text": "Tell me a goddess story.",
+     "next": "story",
+     "require": {
+      "friendship": {
+       "id": "aqua",
+       "min": 3
+      }
+     }
+    },
+    {
+     "text": "Stay here / Follow me",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "companion_stay"
+      }
+     ]
+    },
+    {
+     "text": "I need you to go away.",
+     "next": "refuse"
+    },
+    {
+     "text": "Bye.",
+     "next": ""
+    }
+   ]
+  },
+  "healed": {
+   "text": "Heal! You can thank me later. (I can only do this once in a while, okay? I'm a goddess, not a fountain.)",
+   "choices": [
+    {
+     "text": "Thanks, Aqua.",
+     "next": "talk"
+    }
+   ]
+  },
+  "fed": {
+   "text": [
+    "Mmm! That was great! You really know how to take care of a goddess.",
+    "Nom nom... if you have sake, I'll take that too!"
+   ],
+   "choices": [
+    {
+     "text": "You're welcome.",
+     "next": "talk"
+    }
+   ]
+  },
+  "how": {
+   "text": [
+    "Me? Wonderful, of course! I'm just thirsty... and hungry... and I miss heaven.",
+    "I'm great! But if a giant toad shows up, I'm hiding behind you. Deal?"
+   ],
+   "choices": [
+    {
+     "text": "Back",
+     "next": "talk"
+    }
+   ]
+  },
+  "sleep": {
+   "text": "Terribly! A goddess needs a real bed, you know. Beds, not floors! Rent a room at the inn when we are tired.",
+   "choices": [
+    {
+     "text": "Back",
+     "next": "talk"
+    }
+   ]
+  },
+  "axis": {
+   "text": "The Axis Order adores me! It's the biggest religion in the world... or is it the worst reputation in the world? Nobody knows. But they give me gifts, sometimes.",
+   "choices": [
+    {
+     "text": "Back",
+     "next": "talk",
+     "effects": [
+      {
+       "type": "rep",
+       "faction": "axis",
+       "amount": 1
+      }
+     ]
+    }
+   ]
+  },
+  "story": {
+   "text": "Once I purified an entire lake. It got so clean the fish left. They say that's my power... I say it was a victory.",
+   "choices": [
+    {
+     "text": "Back",
+     "next": "talk",
+     "effects": [
+      {
+       "type": "friendship",
+       "id": "aqua",
+       "amount": 1
+      }
+     ]
+    }
+   ]
+  },
+  "refuse": {
+   "text": "What?! I'm a GODDESS! I'm not going anywhere! You brought me to this world, now deal with it!",
+   "choices": [
+    {
+     "text": "Sorry...",
+     "next": "talk",
+     "effects": [
+      {
+       "type": "friendship",
+       "id": "aqua",
+       "amount": -1
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

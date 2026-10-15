@@ -1,0 +1,20 @@
+{
+ "name": "Chapter 1: Skeleton Warriors",
+ "description": "Armed skeletons were seen at night. Defeat 5 Skeleton Warriors.",
+ "location": "Outside town (at night)",
+ "type": "kill",
+ "amount": 5,
+ "xp": 220,
+ "money": 600,
+ "difficulty": 3,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "target": "konorpg:skeleton_warrior",
+ "unlocks": [
+  "main_07_rank"
+ ],
+ "reputation": {
+  "guild": 4
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "name": "An Axis Order Sake",
+ "description": "Bring 1 bottle of Axis Order Sake (tavern).",
+ "location": "Town of Axel",
+ "type": "collect",
+ "amount": 1,
+ "xp": 25,
+ "money": 150,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "favor",
+ "repeatable": true,
+ "humor": "They say it is \"for religious purposes\".",
+ "target": "konorpg:sake_bottle",
+ "cooldownMinutes": 30,
+ "reputation": {
+  "city": 1
+ }
+}
